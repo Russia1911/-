@@ -8,5 +8,5 @@ clock_1 = second_3 // 3600
 second_3 %= 3600
 minutes_2 = second_3 // 60
 second_3 %= 60
-Otvet = user_1, f"ваш ответ в формате чч:мм:сс п {clock_1}:{minutes_2}:{second_3}"
+Otvet = user_1, f"ваш ответ в формате чч:мм:сс  {clock_1}:{minutes_2}:{second_3}"
 print(Otvet)
