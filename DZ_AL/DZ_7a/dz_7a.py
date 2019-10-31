@@ -59,8 +59,6 @@ class Matrix:
         return (rows, cols)
 
 
-
-
 matrix = [[2, 2, 4], [6, 5, 6], [9, 5, 7]]
 inst = Matrix(matrix)
 print("1-я матрица", inst)
