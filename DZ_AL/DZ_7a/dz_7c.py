@@ -22,8 +22,11 @@
 Тогда метод make_order() вернет строку: *****\n*****\n*****.
 
 """
+"""класс Клетка"""
+
 
 class DNA_cage:
+
 
     def __init__(self, width):
         self.width = width
